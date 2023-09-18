@@ -1,10 +1,10 @@
 # CafeBlog-Project
-Este proyecto es un blog de café creado como parte de mi aprendizaje en el desarrollo web. Fue uno de mis primeros proyectos y lo desarrollé para practicar mis habilidades en HTML, CSS y JavaScript.
+This project is a cafe blog created as part of my learning in web development. It was one of my first projects and I developed it to practice my HTML, CSS and JavaScript skills.
 
-La página web cuenta con un diseño completamente responsivo para adaptarse a dispositivos móviles, tablets y computadoras de escritorio. Además, el proyecto presenta un formulario interactivo y artículos de blog relacionados con el café.
+The website features a fully responsive design to adapt to mobile devices, tablets and desktop computers. In addition, the project features an interactive form and blog articles related to coffee.
 
 
-# TECNOLOGÍAS UTILIZADAS:
+# TECHNOLOGIES USED:
 
 -HTML5
 
