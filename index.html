@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pagina web sobre el cafe"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <title>Blog cafeCafe</title>
+    <!-- PREFETCH-->
+    <link rel="prefetch" href="nosotros.html" as="document">
+
+
+    <!-- PRELOAD-->
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      as="font"
+      crossorigin="crossorigin"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" href="img/blog1.jpg"as="image">
+
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+            <h1 class="logo__nombre">
+              Blog <span class="logo__bold">DeCafe</span>
+            </h1>
+          </a>
+
+          <nav class="navegacion">
+            <!-- Para hacer tres enlaces con una misma clase, a.navegacion__enlace*3
+                    Esta mal este menu porque le faltan los elementos ul y li -->
+            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+          </nav>
+        </div>
+      </div>
+
+      <div class="header__texto">
+        <h2>Blog de cafe con consejos y cursos</h2>
+        <p>Aprende de los expertos con las mejores recetas y consejos</p>
+      </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+      <main class="blog">
+        <h3>Nuestro Blog</h3>
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <picture> <!--MEJORA DEL RENDIMIENTO DE LA IMAGEN CON PICTURE E IMAGENE WEBP / TAMBIEN CON LOADING LAZY HACE QUE LAS IMAGENES SE CARGEN CUANDO SE NECESITEN-->
+              <source srcset="/img/blog1.webp" type="image/webp">
+               <img src="/img/blog1.jpg" alt="imagen blog" loading="lazy" />
+            </picture>
+           
+          </div>
+
+          <div class="entrada__contenido">
+            <h4>Tipos de granos de cafe</h4>
+            <p>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+              archivos de texto. Lorem Ipsum ha sido el texto de relleno
+              estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó
+              una galería de textos y los mezcló de tal manera que logró hacer
+              un libro de textos especimen. No sólo sobrevivió 500 años, sino
+              que tambien ingresó como texto de relleno en documentos el
+              ectrónicos, quedando esencialmente igual al original. Fue
+              popularizado en los 60s con la creación de las hojas "Letraset",
+              las cuales contenian pasajes de Lorem Ipsum, y más recientemente
+              con software de autoedición, como por ejemplo Aldus PageMaker, el
+              cual incluye versiones de Lorem Ipsum.
+            </p>
+
+            <a href="Entrada.html" class="boton boton--primario"
+              >Leer entrada</a
+            >
+          </div>
+        </article>
+
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <img src="/img/blog2.jpg" alt="imagen blog" loading="lazy" />
+          </div>
+
+          <div class="entrada__contenido">
+            <h4>3 Deliciosas recetas del cafe</h4>
+            <p>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+              archivos de texto. Lorem Ipsum ha sido el texto de relleno
+              estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó
+              una galería de textos y los mezcló de tal manera que logró hacer
+              un libro de textos especimen. No sólo sobrevivió 500 años, sino
+              que tambien ingresó como texto de relleno en documentos el
+              ectrónicos, quedando esencialmente igual al original. Fue
+              popularizado en los 60s con la creación de las hojas "Letraset",
+              las cuales contenian pasajes de Lorem Ipsum, y más recientemente
+              con software de autoedición, como por ejemplo Aldus PageMaker, el
+              cual incluye versiones de Lorem Ipsum.
+            </p>
+
+            <a href="Entrada2.html" class="boton boton--primario">Leer entrada</a>
+          </div>
+        </article>
+
+        <article class="entrada">
+          <div class="entrada__imagen">
+            <img src="/img/blog3.jpg" alt="imagen blog" loading="lazy" />
+          </div>
+
+          <div class="entrada__contenido">
+            <h4>Beneficios del cafe</h4>
+            <p>
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+              archivos de texto. Lorem Ipsum ha sido el texto de relleno
+              estándar de las industrias desde el año 1500, cuando un impresor
+              (N. del T. persona que se dedica a la imprenta) desconocido usó
+              una galería de textos y los mezcló de tal manera que logró hacer
+              un libro de textos especimen. No sólo sobrevivió 500 años, sino
+              que tambien ingresó como texto de relleno en documentos el
+              ectrónicos, quedando esencialmente igual al original. Fue
+              popularizado en los 60s con la creación de las hojas "Letraset",
+              las cuales contenian pasajes de Lorem Ipsum, y más recientemente
+              con software de autoedición, como por ejemplo Aldus PageMaker, el
+              cual incluye versiones de Lorem Ipsum.
+            </p>
+
+            <a href="Entrada3.html" class="boton boton--primario">Leer entrada</a>
+          </div>
+        </article>
+      </main>
+
+      <aside class="sidebar">
+        <h3>Nuestros Cursos y talleres</h3>
+        <ul class="cursos">
+          <li class="widget-curso">
+            <h4>Tecnicas de Extracion de Cafe</h4>
+            <p class="widget-curso__label">
+              Precio: <span class="widget-curso__info">Gratis</span>
+            </p>
+            <p class="widget-curso__label">
+              Cupo: <span class="widget-curso__info">Gratis</span>
+            </p>
+            <a href="cursos.html" class="boton boton--secundario">Leer entrada</a>
+
+            >
+          </li>
+
+          <li class="widget-curso">
+            <h4>4 Recetas de cafe para principiantes</h4>
+            <p class="widget-curso__label">
+              Precio: <span class="widget-curso__info">Gratis</span>
+            </p>
+
+            <p class="widget-curso__label">
+              Cupo: <span class="widget-curso__info">Gratis</span>
+            </p>            <a href="cursos.html" class="boton boton--secundario">Leer entrada</a>
+
+          </li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="barra">
+          <a class="logo" href="index.html">
+            <h1 class="logo__nombre">
+              Blog <span class="logo__bold">DeCafe</span>
+            </h1>
+          </a>
+
+          <nav class="navegacion">
+            <!-- Para hacer tres enlaces con una misma clase, a.navegacion__enlace*3
+                    Esta mal este menu porque le faltan los elementos ul y li -->
+            <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
+            <a href="cursos.html" class="navegacion__enlace">Cursos</a>
+            <a href="contacto.html" class="navegacion__enlace">Contacto</a>
+          </nav>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+  </body>
+</html>
