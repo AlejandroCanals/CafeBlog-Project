@@ -6,7 +6,9 @@ La página web cuenta con un diseño completamente responsivo para adaptarse a d
 
 # TECNOLOGÍAS UTILIZADAS:
 
-HTML5
-CSS3
-JavaScript
+-HTML5
+
+-CSS3
+
+-JavaScript
 
