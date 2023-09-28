@@ -12,3 +12,4 @@ The website features a fully responsive design to adapt to mobile devices, table
 
 -JavaScript
 
+![png](https://github.com/iTzSRK/CafeBlog-Project/raw/main/img/1.png)
