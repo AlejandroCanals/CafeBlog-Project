@@ -12,11 +12,6 @@ The website features a fully responsive design to adapt to mobile devices, table
 
 -JavaScript
 
-![png](https://github.com/iTzSRK/CafeBlog-Project/raw/main/img/1.png)
-![png](https://github.com/iTzSRK/CafeBlog-Project/raw/main/img/2.png)
-![png](https://github.com/iTzSRK/CafeBlog-Project/raw/main/img/3.png)
-
-
 # Download the Project:
     Clone or download this repository from GitHub.
 
@@ -24,3 +19,9 @@ The website features a fully responsive design to adapt to mobile devices, table
    Make sure you have the "Live Server" extension installed in your web browser or code editor (you can install it from the available extensions or add-ons in your favorite editor).
    Open the main HTML file of your project in your code editor.
    Right-click on the HTML file and select "Open with Live Server." This will start a local server that will serve your web project.
+
+![png](https://github.com/iTzSRK/CafeBlog-Project/raw/main/img/1.png)
+![png](https://github.com/iTzSRK/CafeBlog-Project/raw/main/img/2.png)
+![png](https://github.com/iTzSRK/CafeBlog-Project/raw/main/img/3.png)
+
+
